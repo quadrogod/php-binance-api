@@ -2615,7 +2615,7 @@ class API
      * @return null
      * @throws \Exception
      */
-    public function userData(&$balance_callback, &$execution_callback = false)
+    public function userData($balance_callback, $execution_callback = false)
     {
         $response = $this->httpRequest("v1/userDataStream", "POST", []);
         $this->listenKey = $response['listenKey'];

@@ -8,7 +8,7 @@
             "url": "https://github.com/jaggedsoft/php-binance-api"
     }],
     "require": {
-        "php": ">=7.0",
+        "php": ">=7.0 || ^8.1",
         "ext-curl": "*",
         "ratchet/pawl": "^0.4.0",
         "react/socket": "^1.0 || ^0.8 || ^0.7",
